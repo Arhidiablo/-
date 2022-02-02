@@ -58,8 +58,6 @@ def insertion_sort(list1):
  
             value = list1[i] 
  
-      
-            # of their current position 
             j = i - 1 
             while j >= 0 and value < list1[j]: 
                 list1[j + 1] = list1[j] 
